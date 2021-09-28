@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+}
+div:not(.wrapper) {
+  background-color: #1876fb;
+  color: white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.second {
+  align-self: flex-start;
+  order: 1;
+}
