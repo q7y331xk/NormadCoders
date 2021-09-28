@@ -1,8 +1,15 @@
 body {
   background-color: black;
 }
-div:not(.wrapper) {
-  background-color: #1876fb;
+.father {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.child {
+  background-color: peru;
   color: white;
   width: 300px;
   height: 300px;
@@ -11,16 +18,14 @@ div:not(.wrapper) {
   align-items: center;
   font-size: 70px;
 }
-
-.wrapper {
-  width: 100vw;
-  height: 50vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.child:nth-child(1) {
+  flex-grow: 3;
 }
 
-.second {
-  align-self: flex-start;
-  order: 1;
+.child:nth-child(2) {
+  background-color: green;
+  flex-grow: 1;
+}
+.child:nth-child(3) {
+  flex-grow: 3;
 }
