@@ -1,0 +1,13 @@
+@import "_variables.scss";
+body {
+  background-color: $red;
+}
+header {
+  color: green;
+  &:hover {
+    background-color: black;
+  }
+  p {
+    color: red;
+  }
+}
