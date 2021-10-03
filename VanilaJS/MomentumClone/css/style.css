@@ -71,6 +71,7 @@ input[type="text"]:hover {
 #todo-list button {
   border: none;
   position: absolute;
+  background-color: white;
   top: 15px;
   border-radius: 20%;
   margin-left: 10px;
